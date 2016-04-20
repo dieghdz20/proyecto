@@ -1,0 +1,67 @@
+ 1  sudo apt-get install tree
+    2  sudo apt-get install ssh
+    3  sudo apt-get install apache2
+    4  ip -4 a
+    5  sudo apt-get install mysq
+    6  sudo apt-get install update
+    7  ls /la
+    8  ls -la
+    9  ls -l
+   10  sudo apt-get install update
+   11  sudo apt-get update
+   12  ip /4 addr
+   13  ip -4 addr
+   14  ip /4 addr
+   15  ip -4 addr
+   16  restart networking
+   17  ip -4 addr
+   18  restart networking
+   19  reboot
+   20  sudo reboot now
+   21  ip -4 addr
+   22  sudo reboot now
+   23  ip -4 addr
+   24  ip /4 addr
+   25  ip -4 addr
+   26  history
+   27  sudo restart
+   28  sudo reset -h
+   29  cd /etc/init.d/
+   30  tree
+   31  cd
+   32  cd /etc/apache2/sites-available/
+   33  tree
+   34  cat /etc/apache2/sites-available/000-default.conf
+   35  cd
+   36  tree
+   37  sudo nano /etc/apache2/sites-available/000-default.conf
+   38  cd /tmp/ // wget http://ftp.drupal.org/files/projects/drupal-7.43zip
+   39  cd
+   40  sudo apt-get install unzip
+   41  unzip drupal*.zip
+   42  exit
+   43  cd ~
+   44  wget http://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+   45  tar xzvf drupal*
+   46  cd drupal*
+   47  sudo rsync -avz . /var/www/html
+   48  cd /var/www/html/
+   49  mkdir /var/www/html/sites/default/files
+   50  cp /var/www/html/sites/default/default.settings.php /var/www/html/sites/default/settings.php
+   51  exit
+   52  chmod 664 /var/www/html/sites/default/settings.php
+   53  sudo chown -R :www-data /var/www/html/*
+   54  sudo apt-get install php gd
+   55  sudo apt-get install php5-gd
+   56  service apache2 restart
+   57  sudo service apache2 restart
+   58  history
+   59  su -
+   60  su - root
+   61  su -
+   62  su -sysadmin
+   63  sudo -i
+   64  sudo mkdir history
+   65  cat >> history.txt
+   66  history
+proyecto
